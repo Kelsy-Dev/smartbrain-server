@@ -18,7 +18,7 @@ const db = knex({
     user : 'KLC-Dev',
     password : '',
     database : 'smart-brain'
-  }
+  } 
 });
 
 const app = express();
