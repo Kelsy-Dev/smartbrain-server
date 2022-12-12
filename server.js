@@ -12,10 +12,9 @@ const image = require('./controllers/image');
 
 const db = knex({
   // connect to your own database here:
-  client: 'pg',
+  client: 'database-smartbrain',
   connection: {
     host : 'dpg-ce9vtbda4996me9vtm40-a',
-    port: '5432',
     user : 'database_smartbrain_user',
     password : 'xKyAaBUhFFf6anIN02tSl7B5K7FRrv1S',
     database : 'database_smartbrain'
